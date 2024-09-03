@@ -1,1 +1,1 @@
-# CursoRefatoracao
+Projeto criado para realização do curso de C#: aplique boas práticas de refatoração e torne seu código mais legível do Alura no seguinte link: https://www.alura.com.br/curso-online-csharp-boas-praticas-refatoracao-codigo-legivel
