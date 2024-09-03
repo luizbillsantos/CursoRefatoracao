@@ -13,9 +13,9 @@ namespace Alura.Adopet.Console.Servicos
     {
         HttpClient client;
 
-        public HttpClientPet()
+        public HttpClientPet(string uri)
         {
-            client = ConfiguraHttpClient("http://localhost:5057");
+            client = ConfiguraHttpClient(uri);
         }
 
         public async Task<IEnumerable<Pet>?> ListPetsAsync()

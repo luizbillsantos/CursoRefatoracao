@@ -9,7 +9,7 @@ namespace Alura.Adopet.Console.Comandos
         "que realiza a importação do arquivo de pets.")]
     public class Import : IComando
     {
-        HttpClientPet petClient = new HttpClientPet();
+        HttpClientPet petClient = new HttpClientPet(uri: "http://localhost:5057");
         HttpClient client;
 
         public Import()

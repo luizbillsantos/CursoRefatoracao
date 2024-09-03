@@ -13,7 +13,7 @@ namespace Alura.Adopet.Console.Comandos
 
         private async Task ListaDadosPetsDaApiAsync()
         {
-            var httpListPet = new HttpClientPet();
+            var httpListPet = new HttpClientPet(uri: "http://localhost:5057");
             var pets = await httpListPet.ListPetsAsync();
             System.Console.WriteLine("-----Lista de Pets importados no sistema-----");
             foreach (var pet in pets)
